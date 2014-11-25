@@ -14,5 +14,7 @@
     <string name="cancle">取消</string>
     <string name="next">下一步</string>
     <string name="title_activity_select">SelectActivity</string>
+    <string name="uploadPic">选取照片</string>
+    <string name="title_activity_pic">PicActivity</string>
 
 </resources>
