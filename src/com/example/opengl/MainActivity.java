@@ -36,15 +36,13 @@ public class MainActivity extends Activity {
 	    	    	String telstr=tel.getText().toString(); 
 	    	    	String emailstr=email.getText().toString(); 
 	    	    	
-	    	    	
-	    	    	Card card = new Card();
+	    	    	CardApplication card=(CardApplication)getApplication();
 	    	    	card.setName(namestr);
 	    	    	card.setCompany(companystr);
 	    	    	card.setPosition(positionstr);
 	    	    	card.setTel(telstr);
 	    	    	card.setEmail(emailstr);
 	    	    	Bundle bundle = new Bundle();
-	    	    	bundle.putSerializable("cardObject", card);  
 	    	    	 Intent intent = new Intent();
 	                 intent.setClass(MainActivity.this, SelectActivity.class);
 	                 intent.putExtras(bundle);  

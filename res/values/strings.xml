@@ -16,5 +16,7 @@
     <string name="title_activity_select">SelectActivity</string>
     <string name="uploadPic">选取照片</string>
     <string name="title_activity_pic">PicActivity</string>
+    <string name="up">确认</string>
+    <string name="title_activity_show_card">ShowCardActivity</string>
 
 </resources>
